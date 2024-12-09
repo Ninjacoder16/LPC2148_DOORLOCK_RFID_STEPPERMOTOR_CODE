@@ -1,0 +1,9 @@
+Dependencies for Project 'DOORlockARM', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5020028::V5.02 [Build 28]::.\ARMCC
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 538"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\doorlock.c)(0x67574E9D)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="538"-o .\objects\doorlock.o --omf_browse .\objects\doorlock.crf --depend .\objects\doorlock.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x4EB0F5AE)
+I (lcd4bit.h)(0x67574EE3)
+I (steppermotor.h)(0x67574D95)
+I (armuart.h)(0x675743BE)
